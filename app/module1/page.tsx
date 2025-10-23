@@ -2,8 +2,7 @@
 
 import NavBar from "../components/NavBar";
 import { useState } from "react";
-import "./globals.css";
-import * as gtag from "../gtag";
+//import * as gtag from "../gtag";
 
 export default function Module1() {
     const [started, setStarted] = useState(false);
