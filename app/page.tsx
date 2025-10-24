@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import { Brain, GraduationCap, Clock } from "lucide-react";
 
+
 export default function LandingPage() {
   return (
     <main className="flex flex-col min-h-screen">
@@ -12,12 +13,12 @@ export default function LandingPage() {
       <section className="relative flex justify-between items-center px-8 py-4 shadow-sm">
 
         <img
-        // className="absolute inset-0 w-full h-full object-cover"
-        // src="/hero.png"
-        // alt="Hero Image"
+          className="absolute inset-0 w-full h-full object-cover"
+          src="/hero.png"
+          alt="Hero Image"
         />
 
-        <div className="relative z-10 max-w-xl p-15 text-white">
+        <div className="relative z-10 max-w-xl p-15">
           <h1 className="text-5xl font-extrabold mb-4 tracking-tight">
             Unlock the Power of AI for Your Business
           </h1>
@@ -37,22 +38,16 @@ export default function LandingPage() {
       </section>
 
       {/* Body */}
-
-      <section className="pt-12 pl-5 pr-5 bg-gray-50">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-2xl font-bold">
-            Why Choose Our AI Training?
-          </h1>
-
+      <section className="bg-gray-50">
+        <div className="max-w-5xl mx-auto py-12 px-5 flex flex-col gap-6">
+          <h1 className="text-2xl font-bold">Why Choose Our AI Training?</h1>
           <p className="text-sm">
             Our program is tailored to meet the needs of entrepreneurs and small businesses,
             providing practical skills and actionable insights.
           </p>
 
           {/* Feature Grid */}
-
-          <div className="grid grid-cols-3 gap-10 max-w-5xl mx-auto pt-6">
-
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 pt-6">
             <div className="flex flex-col items-start bg-white p-6 rounded-lg shadow-sm">
               <Brain className="h-8 w-8 text-blue-600 mb-3" />
               <h3 className="font-semibold text-lg">Practical, Hands-On Learning</h3>
@@ -76,13 +71,12 @@ export default function LandingPage() {
                 Access the program anytime, anywhere, and learn at your own pace.
               </p>
             </div>
-
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-8 mt-16">
+      <footer className="bg-gray-900 text-gray-300 py-8">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1 */}
           <div>
@@ -117,6 +111,7 @@ export default function LandingPage() {
           © {new Date().getFullYear()} AI Training Platform. All rights reserved.
         </div>
       </footer>
+
 
 
     </main>
