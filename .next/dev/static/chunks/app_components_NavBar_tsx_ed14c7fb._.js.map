@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annabellarivera/Desktop/AI-Project/AI-PLATFORM-PROJECT/app/components/NavBar.tsx"],"sourcesContent":["\"use client\";\n\nimport Link from \"next/link\";\n\nexport default function NavBar() {\n    return (\n        <nav className=\"flex items-center justify-between px-6 py-4 bg-gray-900 text-white\">\n            <h1 className=\"text-xl font-semibold\">AI Platform</h1>\n            <ul className=\"flex space-x-6\">\n                <li><Link href=\"/\">Home</Link></li>\n                <li><Link href=\"/module1\">Modules</Link></li>\n                <li><Link href=\"/dashboard\">Dashboard</Link></li>\n            </ul>\n        </nav>\n    );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACpB,qBACI,6LAAC;QAAI,WAAU;;0BACX,6LAAC;gBAAG,WAAU;0BAAwB;;;;;;0BACtC,6LAAC;gBAAG,WAAU;;kCACV,6LAAC;kCAAG,cAAA,6LAAC,0KAAI;4BAAC,MAAK;sCAAI;;;;;;;;;;;kCACnB,6LAAC;kCAAG,cAAA,6LAAC,0KAAI;4BAAC,MAAK;sCAAW;;;;;;;;;;;kCAC1B,6LAAC;kCAAG,cAAA,6LAAC,0KAAI;4BAAC,MAAK;sCAAa;;;;;;;;;;;;;;;;;;;;;;;AAI5C;KAXwB","debugId":null}}]
-}

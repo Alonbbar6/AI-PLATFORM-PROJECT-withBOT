@@ -7,11 +7,11 @@ interface ModuleProps {
 export default function Module({ moduleId }: ModuleProps) {
 
   const startModule = () => {
-    gtag.event("module_start", { module_name: moduleId });
+    gtag.event({ action: "module_start", params: { module_name: moduleId } });
   };
 
   const completeModule = () => {
-    gtag.event("module_complete", { module_name: moduleId });
+    gtag.event({ action: "module_complete", params: { module_name: moduleId } });
   };
 
   return (

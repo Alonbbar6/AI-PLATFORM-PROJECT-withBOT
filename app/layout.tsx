@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
+import ChatbotWidget from "./components/ChatbotWidget";
 
 
 const geistSans = Geist({
@@ -54,6 +55,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <ChatbotWidget 
+          userId="user-123"
+          position="bottom-right"
+          primaryColor="#3B82F6"
+        />
       </body>
     </html>
   );

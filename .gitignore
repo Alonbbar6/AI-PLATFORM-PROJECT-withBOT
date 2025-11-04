@@ -1,2 +1,86 @@
-node_modules
-node_modules
+# Dependencies
+node_modules/
+**/node_modules/
+chatbot-server/node_modules/
+
+# Environment variables (CRITICAL - DO NOT COMMIT)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Cache
+cache/
+embeddings-cache.json
+.eslintcache
+
+# Failed embeddings tracking
+failed-embeddings.json
+
+# Next.js
+.next/
+out/
+build/
+dist/
+.vercel
+
+# Production
+/build
+
+# Testing
+coverage/
+.nyc_output
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+
+# Large media files (add if you use them)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.tar.gz
+*.rar
+
+# Large PDFs (uncomment if you have large PDF files)
+# *.pdf
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Workspace files
+*.code-workspace

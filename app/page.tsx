@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import FAQSection from "./components/FAQSection";
 import { Brain, GraduationCap, Clock } from "lucide-react";
 
 
@@ -74,6 +75,9 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection />
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-8">

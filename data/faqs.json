@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the main objective of Module 1?",
+    "answer": "Module 1 introduces the project's core concepts and sets up the foundation for collaboration. It covers team formation, project scope definition, and basic workflows. You'll also learn about the tools and technologies we'll be using throughout the project.",
+    "category": "Module 1",
+    "keywords": ["introduction", "getting started", "project setup", "team formation", "workflow"]
+  },
+  {
+    "question": "How do I set up my development environment?",
+    "answer": "To set up your development environment, install Node.js, Git, and your preferred code editor. Clone the repository, run 'npm install' to install dependencies, and create a .env file with the required environment variables. Detailed setup instructions are available in the project's README.",
+    "category": "Module 1",
+    "keywords": ["setup", "installation", "environment", "development", "tools"]
+  },
+  {
+    "question": "What technologies are we using?",
+    "answer": "We're using Next.js for the frontend, Supabase for the backend and database, and OpenAI for AI features. Additional tools include TailwindCSS for styling, TypeScript for type safety, and Vercel for deployment.",
+    "category": "Module 1",
+    "keywords": ["technology", "stack", "tools", "frameworks"]
+  },
+  {
+    "question": "What's the communication protocol?",
+    "answer": "We use Slack for daily communication, Zoom for meetings, and GitHub for code-related discussions. Check Slack daily for updates, attend all scheduled meetings, and respond to mentions within 24 hours during work days.",
+    "category": "Module 1",
+    "keywords": ["communication", "slack", "meetings", "protocol"]
+  },
+  {
+    "question": "How do I report bugs or issues?",
+    "answer": "Create a GitHub issue using the bug report template. Include steps to reproduce, expected vs actual behavior, screenshots if applicable, and your environment details. Label it appropriately and assign it to the relevant team member if known.",
+    "category": "Module 1",
+    "keywords": ["bugs", "issues", "reporting", "github"]
+  },
+  {
+    "question": "What's the testing strategy?",
+    "answer": "We use Jest for unit tests and Playwright for end-to-end tests. Aim for at least 80% code coverage. Write tests before or alongside your code. All tests must pass before merging to main.",
+    "category": "Module 1",
+    "keywords": ["testing", "jest", "playwright", "quality"]
+  },
+  {
+    "question": "How do I handle sensitive data?",
+    "answer": "Never commit API keys, passwords, or sensitive data to the repository. Use environment variables stored in .env files. For team sharing, use a secure password manager. Always use the service role key for backend operations.",
+    "category": "Module 1",
+    "keywords": ["security", "sensitive data", "api keys", "environment"]
+  },
+  {
+    "question": "What's our branching strategy?",
+    "answer": "We use Git Flow with main, develop, feature/, bugfix/, and release/ branches. Create feature branches from develop and submit pull requests for review. All code must pass tests and code review before merging.",
+    "category": "Module 2",
+    "keywords": ["git", "branching", "workflow", "version control"]
+  },
+  {
+    "question": "How do we handle code reviews?",
+    "answer": "All code changes require a pull request and at least one approval from a team member. Reviewers should check for code quality, test coverage, and adherence to our coding standards. Use the PR template for consistent feedback.",
+    "category": "Module 2",
+    "keywords": ["code review", "pull requests", "collaboration", "quality"]
+  },
+  {
+    "question": "How do I create a pull request?",
+    "answer": "Push your feature branch to GitHub, then click 'New Pull Request'. Fill out the PR template with description, testing steps, and screenshots if applicable. Link related issues, request reviewers, and ensure all CI checks pass before requesting review.",
+    "category": "Module 2",
+    "keywords": ["pull request", "github", "workflow", "collaboration"]
+  },
+  {
+    "question": "What's the sprint workflow?",
+    "answer": "Each sprint starts with planning where we select tasks from the backlog. During the sprint, work on assigned tasks, attend daily standups, and update task status. End with a sprint review to demo completed work and a retrospective to improve processes.",
+    "category": "Module 2",
+    "keywords": ["sprint", "workflow", "scrum", "agile"]
+  },
+  {
+    "question": "What's the definition of done?",
+    "answer": "A task is done when code is written and tested, all tests pass, code is reviewed and approved, documentation is updated, and changes are merged to develop. The feature must work in the preview environment without errors.",
+    "category": "Module 2",
+    "keywords": ["definition of done", "completion", "quality", "standards"]
+  },
+  {
+    "question": "How do we handle blockers?",
+    "answer": "Identify blockers early and communicate them in standup or Slack. Tag the relevant person who can help unblock you. If a blocker persists for more than a day, escalate to the team lead. Document blockers in task comments.",
+    "category": "Module 2",
+    "keywords": ["blockers", "issues", "communication", "problem solving"]
+  },
+  {
+    "question": "How do I give effective code review feedback?",
+    "answer": "Be constructive and specific in your feedback. Point out both good practices and areas for improvement. Ask questions rather than making demands. Focus on code quality, not personal preferences. Approve when satisfied or request changes if needed.",
+    "category": "Module 2",
+    "keywords": ["code review", "feedback", "collaboration", "communication"]
+  },
+  {
+    "question": "How do we handle environment variables?",
+    "answer": "Environment-specific variables are stored in .env files (not committed to git) and loaded via dotenv. The .env.example file documents all required variables. Never commit sensitive data to the repository.",
+    "category": "Module 3",
+    "keywords": ["environment", "configuration", "security", "best practices"]
+  },
+  {
+    "question": "What's the database migration strategy?",
+    "answer": "All database changes must go through migrations stored in the /migrations folder. Test migrations locally first, then in staging. Never modify existing migrations that have been deployed. Always include both up and down migrations for reversibility.",
+    "category": "Module 3",
+    "keywords": ["database", "migrations", "schema", "best practices"]
+  },
+  {
+    "question": "What's the security checklist?",
+    "answer": "Validate all user input, use parameterized queries, implement proper authentication and authorization, keep dependencies updated, use HTTPS everywhere, set secure headers, and conduct regular security audits. Follow OWASP guidelines.",
+    "category": "Module 3",
+    "keywords": ["security", "checklist", "owasp", "best practices"]
+  },
+  {
+    "question": "How do I optimize database queries?",
+    "answer": "Use EXPLAIN ANALYZE to understand query plans. Add indexes for frequently queried columns. Avoid N+1 queries by using joins or batch loading. Limit result sets and use pagination. Monitor slow query logs regularly.",
+    "category": "Module 3",
+    "keywords": ["database", "optimization", "queries", "performance"]
+  },
+  {
+    "question": "What's the monitoring setup?",
+    "answer": "We use Vercel Analytics for frontend metrics and Supabase monitoring for database performance. Set up alerts for error rates, response times, and resource usage. Review dashboards daily. Investigate anomalies promptly.",
+    "category": "Module 3",
+    "keywords": ["monitoring", "analytics", "performance", "alerts"]
+  },
+  {
+    "question": "How do I implement proper error handling?",
+    "answer": "Use try-catch blocks for async operations. Return appropriate HTTP status codes. Provide meaningful error messages without exposing sensitive information. Log errors with context. Implement global error handlers for uncaught exceptions.",
+    "category": "Module 3",
+    "keywords": ["error handling", "exceptions", "logging", "best practices"]
+  }
+]
