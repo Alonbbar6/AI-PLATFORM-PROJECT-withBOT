@@ -28,7 +28,7 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) to see the application.
 
-## FAQ System Setup
+## FAQ System Setup (work in progress not working yet)
 
 This project includes a comprehensive FAQ system with vector embeddings for semantic search.
 
